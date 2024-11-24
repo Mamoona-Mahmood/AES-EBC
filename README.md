@@ -27,14 +27,14 @@ pip install pycryptodome
 ### 3. Configure Server and Client
 
 Running the Project
-# Step 1: Start the Server
+#### Step 1: Start the Server
 
 Run the server script first to start listening for connections:
 
 python server.py
 
 The server will continuously listen for incoming connections and decrypt received messages.
-# Step 2: Start the Client
+#### Step 2: Start the Client
 
 Run the client script to send encrypted messages to the server:
 
@@ -43,7 +43,7 @@ python client.py
 Follow the on-screen prompts to enter a message. The message will be encrypted, sent to the server, and decrypted for display.
 
 ### Example Output
-# On the Server:
+#### On the Server:
 Bind Done
 Listening for Incoming Connections.....
 
@@ -54,7 +54,7 @@ Decrypted Client Message: Hello Server! This is Client.
 Hello Client! Your decrypted message is: Hello Server! This is Client.
 
 
-# On the Client:
+#### On the Client:
 
 Connected to the server
 Enter Message: Hello Server! This is Client.
