@@ -50,14 +50,20 @@ Listening for Incoming Connections.....
 Client Connected with IP: 127.0.0.1 and Port No: 54321
 
 Encrypted message received: 1B2M2Y8AsgTpgAmY7PhCfg==9fKeEtCYT3Z4eQsMpUEDSY34u4N2WtA=
+
 Decrypted Client Message: Hello Server! This is Client.
+
 Hello Client! Your decrypted message is: Hello Server! This is Client.
 
 
 #### On the Client:
 
 Connected to the server
+
 Enter Message: Hello Server! This is Client.
+
 Encrypted Message: 1B2M2Y8AsgTpgAmY7PhCfg==9fKeEtCYT3Z4eQsMpUEDSY34u4N2WtA=
+
 Message sent to the server
+
 Server Message: Hello Client! Your decrypted message is: Hello Server! This is Client.
